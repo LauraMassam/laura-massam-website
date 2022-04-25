@@ -3,7 +3,7 @@
     background-color: black;
     color:white;
     margin: 0px 15px;
-    padding: 2px;
+    padding: 5px;
 }
 
 .NavigationBarMenu{
@@ -13,12 +13,17 @@
 .NavigationLink{
     text-decoration: none;
     color: #ffffff;
-    
 }
 .NavigationLink:hover{
-    color: #61A4BC;
+    background-color: #ffffff;
+    color: black;
     cursor: pointer;
     transform: translateY(-20px);
-    transition: ease-in-out .15s;
-    letter-spacing: 2px;
+    transition: ease-in-out 200ms;
+    border-radius: 2px;
+    padding: 2px;
+}
+ul, li{
+    display: inline;
+    padding: 0px 50px;
 }

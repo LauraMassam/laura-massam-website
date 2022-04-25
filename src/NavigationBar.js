@@ -4,23 +4,23 @@ import "./NavigationBar.css";
 export default function NavigationBar(){
     return(
         <div className="NavigationBar">
-            <span className="NavigationBarMenu">
+            <ul>
+            <li>
                 <a href className="NavigationLink"> 
                 home 
                 </a>
-            </span>
-            <span className="NavigationBarMenu">
+            </li>
+            <li>
                 <a href className="NavigationLink">
                 portfolio
                 </a>
-            </span>
-            <span className="NavigationBarMenu">
+            </li>
+            <li>
                 <a href className="NavigationLink">
                 CV
                 </a>
-            </span>
-
+            </li>
+            </ul>
         </div>
-
     );
 }
